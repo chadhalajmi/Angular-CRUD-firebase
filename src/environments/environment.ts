@@ -7,5 +7,6 @@ export const environment = {
     storageBucket: "bookshelves-96323.appspot.com",
     messagingSenderId: "289168758684",
     appId: "1:289168758684:web:d71bd9feab465b053b9a59"
-  }
+  },
+  production: false,
  };

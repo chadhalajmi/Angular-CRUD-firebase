@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
-import { BooksService } from 'src/app/services/books.service';
-import { Book } from 'src/models/Book.model';
+import { BooksService } from 'src/core/services/books.service';
+import { Book } from 'src/core/entities/Book.model';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-book-form',
