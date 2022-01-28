@@ -36,7 +36,7 @@ export class BookFormComponent implements OnInit {
     const newBook = new Book(title, author);
     newBook.synopsis = synopsis;
     this.booksService.createNewBook(newBook);
-    this.router.navigate(['/books']);
+    this.router.navigate(['/book-list']);
   }
 
 }

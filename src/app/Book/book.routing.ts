@@ -7,11 +7,7 @@ import { SingleBookComponent } from './single-book/single-book.component';
 
 const appRoutes: Routes = [
   {
-    path: '',
-    component:AppComponent,
-    children: [
-      {
-        path: 'books',
+        path: 'books/new',
         component: BookFormComponent,
         canActivate: [AuthGuardService],
       },
@@ -25,7 +21,5 @@ const appRoutes: Routes = [
         component: SingleBookComponent,
         canActivate: [AuthGuardService],
       }
-    ],
-  },
 ];
 export default appRoutes ;

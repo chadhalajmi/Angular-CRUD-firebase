@@ -17,8 +17,8 @@ import { SingleBookComponent } from './Book/single-book/single-book.component';
 //   { path: '**', redirectTo: 'books' }
 // ];
 const routes:Routes=[
-  { path: '', redirectTo: 'books', pathMatch: 'full' },
-  { path: '**', redirectTo: 'books' }
+  //{ path: '', redirectTo: 'books', pathMatch: 'full' },
+  //{ path: '**', redirectTo: 'books' },
 ];
 
 @NgModule({
